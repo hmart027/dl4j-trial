@@ -1,0 +1,2014 @@
+2017-11-16 13:08:18,449 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:08:19,845 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:08:20,668 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:08:20,668 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:08:20,668 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:08:20,670 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:08:25,202 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:08:25,722 - [INFO] - from org.nd4j.linalg.jcublas.compression.CudaThreshold in main
+                
+Setting threshold to [0.001]
+
+2017-11-16 13:08:25,799 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode SINGLE for training
+
+2017-11-16 13:08:25,805 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2017-11-16 13:08:25,811 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2017-11-16 13:08:25,872 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in ParallelWrapper training thread 0
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:08:26,462 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 0 is 1.4776761685694368
+
+2017-11-16 13:08:26,462 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 0 is 2.2920338069285067
+
+2017-11-16 13:08:30,681 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 100 is 1.1684351373045232
+
+2017-11-16 13:08:34,455 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 200 is 1.993045439952048
+
+2017-11-16 13:08:38,054 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 300 is 0.39181576297399945
+
+2017-11-16 13:08:41,850 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 400 is 3.1964821153463365
+
+2017-11-16 13:08:44,504 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode SINGLE for training
+
+2017-11-16 13:08:44,511 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2017-11-16 13:08:44,515 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2017-11-16 13:09:12,588 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:09:13,881 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:09:14,743 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:09:14,743 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:09:14,743 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:09:14,745 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:09:19,482 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:09:20,077 - [INFO] - from org.nd4j.linalg.jcublas.compression.CudaThreshold in main
+                
+Setting threshold to [0.001]
+
+2017-11-16 13:09:20,096 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode SINGLE for training
+
+2017-11-16 13:09:20,103 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2017-11-16 13:09:20,109 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2017-11-16 13:09:20,238 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in ParallelWrapper training thread 0
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:09:20,866 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 0 is 1.4776761685694368
+
+2017-11-16 13:09:20,866 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 0 is 2.2920338069285067
+
+2017-11-16 13:09:24,560 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 100 is 2.937231642510299
+
+2017-11-16 13:09:28,185 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 200 is 0.6659724564051435
+
+2017-11-16 13:09:31,734 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 300 is 0.5799750812220068
+
+2017-11-16 13:09:31,734 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 300 is 3.2820029981302707
+
+2017-11-16 13:09:35,212 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 400 is 3.0400169522371914
+
+2017-11-16 13:09:35,212 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 400 is 0.7107565433588647
+
+2017-11-16 13:09:37,714 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode SINGLE for training
+
+2017-11-16 13:09:37,720 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2017-11-16 13:09:37,728 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2017-11-16 13:15:09,081 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:15:10,475 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:15:11,312 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:15:11,312 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:15:11,313 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:15:11,314 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:15:15,872 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:15:16,353 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:15:16,627 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:15:21,288 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:15:25,540 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:15:29,829 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:15:34,175 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:15:38,750 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:15:43,328 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:15:47,822 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:15:52,252 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:15:56,711 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:18:05,797 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:18:07,185 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:18:08,074 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:18:08,074 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:18:08,074 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:18:08,076 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:18:12,894 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:18:13,463 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:18:13,767 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:18:18,626 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:18:22,878 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:18:27,112 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:18:31,311 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:18:36,036 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:18:40,718 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:18:45,446 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:18:50,103 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:18:54,591 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:21:55,036 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:21:56,347 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:21:57,171 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:21:57,171 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:21:57,171 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:21:57,173 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:22:01,762 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:22:02,375 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:22:02,646 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:22:07,325 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:22:11,558 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:22:15,847 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:22:20,058 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:22:24,556 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:22:29,062 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:22:33,574 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:22:38,165 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:22:42,887 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:23:50,829 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:23:52,204 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:23:53,053 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:23:53,053 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:23:53,053 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:23:53,055 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:23:57,801 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:23:58,405 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:23:58,690 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:24:03,588 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:24:07,936 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:24:12,314 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:24:16,593 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:24:20,981 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:24:25,353 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:24:29,746 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:24:34,250 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:24:38,804 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:25:37,908 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:25:39,455 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:25:40,313 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:25:40,313 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:25:40,313 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:25:40,315 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:25:45,020 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:25:45,536 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:25:45,821 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:25:50,544 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:25:54,755 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:25:59,162 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:26:03,485 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:26:07,935 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:26:12,305 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:26:16,612 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:26:21,188 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:26:25,580 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:27:27,190 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:27:28,615 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:27:29,472 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:27:29,472 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:27:29,472 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:27:29,474 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:27:33,955 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:27:34,458 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:27:34,801 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:27:39,569 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:27:44,260 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:27:48,549 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:27:52,864 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:27:57,333 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:28:01,663 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:28:06,249 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:28:10,705 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:28:15,317 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:28:29,173 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:28:30,482 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:28:31,309 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:28:31,310 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:28:31,310 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:28:31,312 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:28:35,870 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:28:36,400 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:28:36,742 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:28:41,502 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:28:45,737 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:28:50,009 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:28:54,170 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:28:58,617 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:29:02,976 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:29:07,255 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:29:11,549 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:29:15,960 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:32:18,792 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Load data....
+
+2017-11-16 13:32:18,943 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Build model....
+
+2017-11-16 13:32:18,974 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 13:32:19,019 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+file:/home/harold/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-arm.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.jar
+file:/mnt/Research/Harold/software/dl4j.trials/target/classes/
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.4.4/jackson-datatype-jsr310-2.4.4.jar
+file:/home/harold/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+file:/home/harold/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-exceptions/2.4.6/play-exceptions-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play_2.11/2.4.6/play_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.jar
+file:/home/harold/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.jar
+file:/home/harold/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-utils/2.4.6/play-netty-utils-2.4.6.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.1.1/imageio-core-3.1.1.jar
+file:/home/harold/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar
+file:/home/harold/.m2/repository/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.jar
+file:/home/harold/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacv/1.3.3/javacv-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar
+file:/home/harold/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.jar
+file:/home/harold/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/mapdb/3.0.5/mapdb-3.0.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-java_2.11/2.4.6/play-java_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.0.21/tomcat-servlet-api-8.0.21.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar
+file:/home/harold/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/play/build-link/2.4.6/build-link-2.4.6.jar
+file:/home/harold/.m2/repository/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.11/0.3.0/scala-java8-compat_2.11-0.3.0.jar
+file:/home/harold/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar
+file:/home/harold/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+file:/home/harold/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-arm.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-codec/0.9.1/datavec-data-codec-0.9.1.jar
+file:/home/harold/.m2/repository/io/aeron/aeron-all/1.0.4/aeron-all-1.0.4.jar
+file:/home/harold/.m2/repository/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-forkjoin/7.1.1/eclipse-collections-forkjoin-7.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar
+file:/home/harold/.m2/repository/org/mapdb/elsa/3.0.0-M5/elsa-3.0.0-M5.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar
+file:/home/harold/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar
+file:/home/harold/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar
+file:/home/harold/.m2/repository/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar
+file:/home/harold/.m2/repository/org/jcodec/jcodec/0.1.5/jcodec-0.1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+file:/home/harold/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-resources/0.9.1/deeplearning4j-ui-resources-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar
+file:/home/harold/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+file:/home/harold/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.jar
+file:/home/harold/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui_2.11/0.9.1/deeplearning4j-ui_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
+file:/home/harold/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-cluster_2.11/2.3.13/akka-cluster_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-model/0.9.1/deeplearning4j-ui-model-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.4.4/jackson-datatype-jdk8-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.3.13/akka-remote_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/home/harold/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/json/json/20160212/json-20160212.jar
+file:/home/harold/.m2/repository/net/jodah/typetools/0.4.3/typetools-0.4.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-contrib_2.11/2.3.13/akka-contrib_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar
+file:/home/harold/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar
+file:/home/harold/.m2/repository/org/joda/joda-convert/1.7/joda-convert-1.7.jar
+file:/home/harold/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-parallel-wrapper_2.11/0.9.1/deeplearning4j-parallel-wrapper_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.7/kotlin-stdlib-1.0.7.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+file:/home/harold/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+file:/home/harold/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections/7.1.1/eclipse-collections-7.1.1.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/1.0.7/kotlin-runtime-1.0.7.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.13/akka-persistence-experimental_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
+file:/home/harold/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+file:/home/harold/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar
+file:/home/harold/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar
+file:/home/harold/.m2/repository/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.jar
+file:/home/harold/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+file:/home/harold/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-api/7.1.1/eclipse-collections-api-7.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/mysql-connector-java-5.1.38.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.jar
+file:/home/harold/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-play_2.11/0.9.1/deeplearning4j-play_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nlp/0.9.1/deeplearning4j-nlp-0.9.1.jar
+file:/home/harold/.m2/repository/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-zoo/0.9.1/deeplearning4j-zoo-0.9.1.jar
+
+2017-11-16 13:32:19,204 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 182 ms to scan 216 urls, producing 65435 keys and 70038 values 
+
+2017-11-16 13:32:20,379 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 13:32:21,010 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar!/
+
+2017-11-16 13:32:21,136 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 126 ms to scan 17 urls, producing 31 keys and 227 values 
+
+2017-11-16 13:32:21,241 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 13:32:21,241 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 13:32:21,241 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 13:32:21,243 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 13:32:21,669 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+file:/home/harold/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-arm.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.jar
+file:/mnt/Research/Harold/software/dl4j.trials/target/classes/
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.4.4/jackson-datatype-jsr310-2.4.4.jar
+file:/home/harold/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+file:/home/harold/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-exceptions/2.4.6/play-exceptions-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play_2.11/2.4.6/play_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.jar
+file:/home/harold/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.jar
+file:/home/harold/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-utils/2.4.6/play-netty-utils-2.4.6.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.1.1/imageio-core-3.1.1.jar
+file:/home/harold/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar
+file:/home/harold/.m2/repository/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.jar
+file:/home/harold/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacv/1.3.3/javacv-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar
+file:/home/harold/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.jar
+file:/home/harold/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/mapdb/3.0.5/mapdb-3.0.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-java_2.11/2.4.6/play-java_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.0.21/tomcat-servlet-api-8.0.21.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar
+file:/home/harold/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/play/build-link/2.4.6/build-link-2.4.6.jar
+file:/home/harold/.m2/repository/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.11/0.3.0/scala-java8-compat_2.11-0.3.0.jar
+file:/home/harold/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar
+file:/home/harold/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+file:/home/harold/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-arm.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-codec/0.9.1/datavec-data-codec-0.9.1.jar
+file:/home/harold/.m2/repository/io/aeron/aeron-all/1.0.4/aeron-all-1.0.4.jar
+file:/home/harold/.m2/repository/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-forkjoin/7.1.1/eclipse-collections-forkjoin-7.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/elsa/3.0.0-M5/elsa-3.0.0-M5.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar
+file:/home/harold/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar
+file:/home/harold/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar
+file:/home/harold/.m2/repository/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
+file:/home/harold/.m2/repository/org/jcodec/jcodec/0.1.5/jcodec-0.1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+file:/home/harold/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-resources/0.9.1/deeplearning4j-ui-resources-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar
+file:/home/harold/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+file:/home/harold/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.jar
+file:/home/harold/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui_2.11/0.9.1/deeplearning4j-ui_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
+file:/home/harold/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-cluster_2.11/2.3.13/akka-cluster_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-model/0.9.1/deeplearning4j-ui-model-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.4.4/jackson-datatype-jdk8-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.3.13/akka-remote_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/home/harold/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/json/json/20160212/json-20160212.jar
+file:/home/harold/.m2/repository/net/jodah/typetools/0.4.3/typetools-0.4.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-contrib_2.11/2.3.13/akka-contrib_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar
+file:/home/harold/.m2/repository/org/joda/joda-convert/1.7/joda-convert-1.7.jar
+file:/home/harold/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-parallel-wrapper_2.11/0.9.1/deeplearning4j-parallel-wrapper_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.7/kotlin-stdlib-1.0.7.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+file:/home/harold/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+file:/home/harold/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections/7.1.1/eclipse-collections-7.1.1.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/1.0.7/kotlin-runtime-1.0.7.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.13/akka-persistence-experimental_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
+file:/home/harold/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+file:/home/harold/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar
+file:/home/harold/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar
+file:/home/harold/.m2/repository/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.jar
+file:/home/harold/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+file:/home/harold/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-api/7.1.1/eclipse-collections-api-7.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.jar
+file:/home/harold/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-play_2.11/0.9.1/deeplearning4j-play_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nlp/0.9.1/deeplearning4j-nlp-0.9.1.jar
+file:/home/harold/.m2/repository/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-zoo/0.9.1/deeplearning4j-zoo-0.9.1.jar
+
+2017-11-16 13:32:25,965 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 4295 ms to scan 205 urls, producing 4014 keys and 22998 values 
+
+2017-11-16 13:32:26,085 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 13:32:26,265 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar!/
+
+2017-11-16 13:32:26,401 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 136 ms to scan 17 urls, producing 416 keys and 1637 values 
+
+2017-11-16 13:32:26,527 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Train model....
+
+2017-11-16 13:32:26,576 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 13:32:26,865 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 13:32:31,581 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 13:32:35,784 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 13:32:40,124 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 13:32:44,473 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 13:32:47,556 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Completed epoch 0, time: 21029 ***
+
+2017-11-16 13:32:48,996 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 13:32:53,357 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 13:32:57,633 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 13:33:02,422 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 13:33:07,033 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 13:33:08,675 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Completed epoch 1, time: 21119 ***
+
+2017-11-16 13:33:08,675 - [DEBUG] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Training complete, time: 42148 ***
+
+2017-11-16 13:33:08,675 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Evaluate model....
+
+2017-11-16 13:33:10,285 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+
+Examples labeled as 0 classified by model as 0: 970 times
+Examples labeled as 0 classified by model as 2: 2 times
+Examples labeled as 0 classified by model as 5: 1 times
+Examples labeled as 0 classified by model as 6: 2 times
+Examples labeled as 0 classified by model as 7: 2 times
+Examples labeled as 0 classified by model as 8: 3 times
+Examples labeled as 1 classified by model as 1: 1133 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 0: 1 times
+Examples labeled as 2 classified by model as 1: 8 times
+Examples labeled as 2 classified by model as 2: 1011 times
+Examples labeled as 2 classified by model as 4: 2 times
+Examples labeled as 2 classified by model as 7: 5 times
+Examples labeled as 2 classified by model as 8: 5 times
+Examples labeled as 3 classified by model as 0: 1 times
+Examples labeled as 3 classified by model as 2: 3 times
+Examples labeled as 3 classified by model as 3: 977 times
+Examples labeled as 3 classified by model as 5: 10 times
+Examples labeled as 3 classified by model as 7: 7 times
+Examples labeled as 3 classified by model as 8: 10 times
+Examples labeled as 3 classified by model as 9: 2 times
+Examples labeled as 4 classified by model as 0: 1 times
+Examples labeled as 4 classified by model as 2: 1 times
+Examples labeled as 4 classified by model as 4: 976 times
+Examples labeled as 4 classified by model as 6: 2 times
+Examples labeled as 4 classified by model as 8: 1 times
+Examples labeled as 4 classified by model as 9: 1 times
+Examples labeled as 5 classified by model as 0: 1 times
+Examples labeled as 5 classified by model as 1: 1 times
+Examples labeled as 5 classified by model as 3: 5 times
+Examples labeled as 5 classified by model as 4: 1 times
+Examples labeled as 5 classified by model as 5: 878 times
+Examples labeled as 5 classified by model as 6: 2 times
+Examples labeled as 5 classified by model as 7: 1 times
+Examples labeled as 5 classified by model as 8: 3 times
+Examples labeled as 6 classified by model as 0: 5 times
+Examples labeled as 6 classified by model as 1: 5 times
+Examples labeled as 6 classified by model as 2: 1 times
+Examples labeled as 6 classified by model as 4: 2 times
+Examples labeled as 6 classified by model as 5: 2 times
+Examples labeled as 6 classified by model as 6: 942 times
+Examples labeled as 6 classified by model as 8: 1 times
+Examples labeled as 7 classified by model as 1: 6 times
+Examples labeled as 7 classified by model as 2: 6 times
+Examples labeled as 7 classified by model as 7: 1010 times
+Examples labeled as 7 classified by model as 8: 2 times
+Examples labeled as 7 classified by model as 9: 4 times
+Examples labeled as 8 classified by model as 0: 3 times
+Examples labeled as 8 classified by model as 3: 2 times
+Examples labeled as 8 classified by model as 4: 4 times
+Examples labeled as 8 classified by model as 7: 4 times
+Examples labeled as 8 classified by model as 8: 958 times
+Examples labeled as 8 classified by model as 9: 3 times
+Examples labeled as 9 classified by model as 0: 3 times
+Examples labeled as 9 classified by model as 1: 3 times
+Examples labeled as 9 classified by model as 3: 4 times
+Examples labeled as 9 classified by model as 4: 15 times
+Examples labeled as 9 classified by model as 5: 4 times
+Examples labeled as 9 classified by model as 7: 6 times
+Examples labeled as 9 classified by model as 8: 1 times
+Examples labeled as 9 classified by model as 9: 973 times
+
+
+==========================Scores========================================
+ # of classes:    10
+ Accuracy:        0.9828
+ Precision:       0.9829
+ Recall:          0.9827
+ F1 Score:        0.9827
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+========================================================================
+
+2017-11-16 13:33:10,286 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+****************Example finished********************
+
+2017-11-16 17:50:48,560 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Load data....
+
+2017-11-16 17:50:48,712 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Build model....
+
+2017-11-16 17:50:48,747 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [JCublasBackend] backend
+
+2017-11-16 17:50:48,788 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+file:/home/harold/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-arm.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.4.4/jackson-datatype-jsr310-2.4.4.jar
+file:/home/harold/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+file:/home/harold/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-exceptions/2.4.6/play-exceptions-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play_2.11/2.4.6/play_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.jar
+file:/home/harold/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.jar
+file:/home/harold/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-utils/2.4.6/play-netty-utils-2.4.6.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.1.1/imageio-core-3.1.1.jar
+file:/home/harold/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar
+file:/home/harold/.m2/repository/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.jar
+file:/home/harold/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacv/1.3.3/javacv-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar
+file:/home/harold/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.jar
+file:/home/harold/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/mapdb/3.0.5/mapdb-3.0.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-java_2.11/2.4.6/play-java_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.0.21/tomcat-servlet-api-8.0.21.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar
+file:/home/harold/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/play/build-link/2.4.6/build-link-2.4.6.jar
+file:/home/harold/.m2/repository/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.11/0.3.0/scala-java8-compat_2.11-0.3.0.jar
+file:/home/harold/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar
+file:/home/harold/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+file:/home/harold/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-arm.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-codec/0.9.1/datavec-data-codec-0.9.1.jar
+file:/home/harold/.m2/repository/io/aeron/aeron-all/1.0.4/aeron-all-1.0.4.jar
+file:/home/harold/.m2/repository/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-forkjoin/7.1.1/eclipse-collections-forkjoin-7.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+file:/mnt/Research/Harold/software/dl4j-trials/target/classes/
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar
+file:/home/harold/.m2/repository/org/mapdb/elsa/3.0.0-M5/elsa-3.0.0-M5.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar
+file:/home/harold/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar
+file:/home/harold/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar
+file:/home/harold/.m2/repository/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar
+file:/home/harold/.m2/repository/org/jcodec/jcodec/0.1.5/jcodec-0.1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+file:/home/harold/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-resources/0.9.1/deeplearning4j-ui-resources-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar
+file:/home/harold/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+file:/home/harold/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.jar
+file:/home/harold/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui_2.11/0.9.1/deeplearning4j-ui_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
+file:/home/harold/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-cluster_2.11/2.3.13/akka-cluster_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-model/0.9.1/deeplearning4j-ui-model-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.4.4/jackson-datatype-jdk8-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.3.13/akka-remote_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/home/harold/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/json/json/20160212/json-20160212.jar
+file:/home/harold/.m2/repository/net/jodah/typetools/0.4.3/typetools-0.4.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-contrib_2.11/2.3.13/akka-contrib_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar
+file:/home/harold/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar
+file:/home/harold/.m2/repository/org/joda/joda-convert/1.7/joda-convert-1.7.jar
+file:/home/harold/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-parallel-wrapper_2.11/0.9.1/deeplearning4j-parallel-wrapper_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.7/kotlin-stdlib-1.0.7.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+file:/home/harold/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+file:/home/harold/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections/7.1.1/eclipse-collections-7.1.1.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/1.0.7/kotlin-runtime-1.0.7.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.13/akka-persistence-experimental_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
+file:/home/harold/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+file:/home/harold/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar
+file:/home/harold/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar
+file:/home/harold/.m2/repository/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.jar
+file:/home/harold/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+file:/home/harold/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-api/7.1.1/eclipse-collections-api-7.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.jar
+file:/usr/lib/jvm/jdk1.8.0_111/jre/lib/ext/mysql-connector-java-5.1.38.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.jar
+file:/home/harold/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-play_2.11/0.9.1/deeplearning4j-play_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nlp/0.9.1/deeplearning4j-nlp-0.9.1.jar
+file:/home/harold/.m2/repository/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-zoo/0.9.1/deeplearning4j-zoo-0.9.1.jar
+
+2017-11-16 17:50:48,977 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 187 ms to scan 216 urls, producing 65436 keys and 70039 values 
+
+2017-11-16 17:50:50,092 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 32
+
+2017-11-16 17:50:50,792 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar!/
+
+2017-11-16 17:50:50,962 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 170 ms to scan 17 urls, producing 31 keys and 227 values 
+
+2017-11-16 17:50:51,079 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CUDA]; OS: [Linux]
+
+2017-11-16 17:50:51,080 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [16]; Memory: [7.0GB];
+
+2017-11-16 17:50:51,080 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [CUBLAS]
+
+2017-11-16 17:50:51,082 - [INFO] - from org.nd4j.linalg.jcublas.ops.executioner.CudaExecutioner in main
+                
+Device name: [Quadro M6000 24GB]; CC: [5.2]; Total/free memory: [25651904512]
+
+2017-11-16 17:50:51,478 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+file:/home/harold/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-arm.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.4.4/jackson-datatype-jsr310-2.4.4.jar
+file:/home/harold/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+file:/home/harold/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-exceptions/2.4.6/play-exceptions-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-core/0.9.1/deeplearning4j-core-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play_2.11/2.4.6/play_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.9.3.43-1.3/flycapture-2.9.3.43-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.4-1.3/libdc1394-2.2.4-1.3.jar
+file:/home/harold/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/nearestneighbor-core/0.9.1/nearestneighbor-core-0.9.1.jar
+file:/home/harold/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-utils/2.4.6/play-netty-utils-2.4.6.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.1.1/imageio-core-3.1.1.jar
+file:/home/harold/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-functional_2.11/2.4.6/play-functional_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/it/unimi/dsi/fastutil/6.5.7/fastutil-6.5.7.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-image/0.9.1/datavec-data-image-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda-platform/8.0-6.0-1.3/cuda-platform-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar
+file:/home/harold/.m2/repository/net/ericaro/neoitertools/1.0.0/neoitertools-1.0.0.jar
+file:/home/harold/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacv/1.3.3/javacv-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-armhf.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar
+file:/home/harold/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-modelimport/0.9.1/deeplearning4j-modelimport-0.9.1.jar
+file:/home/harold/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/mapdb/3.0.5/mapdb-3.0.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/3.2.1-1.3/ffmpeg-3.2.1-1.3.jar
+file:/home/harold/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-java_2.11/2.4.6/play-java_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.2.0-1.3/opencv-platform-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.0.21/tomcat-servlet-api-8.0.21.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar
+file:/home/harold/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.9.6-1.3/librealsense-1.9.6-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-json_2.11/2.4.6/play-json_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.3/flandmark-1.07-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/play/build-link/2.4.6/build-link-2.4.6.jar
+file:/home/harold/.m2/repository/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.11/0.3.0/scala-java8-compat_2.11-0.3.0.jar
+file:/home/harold/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar
+file:/home/harold/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+file:/home/harold/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-arm.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5-platform/1.10.0-patch1-1.3/hdf5-platform-1.10.0-patch1-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-x86.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-data-codec/0.9.1/datavec-data-codec-0.9.1.jar
+file:/home/harold/.m2/repository/io/aeron/aeron-all/1.0.4/aeron-all-1.0.4.jar
+file:/home/harold/.m2/repository/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-forkjoin/7.1.1/eclipse-collections-forkjoin-7.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+file:/mnt/Research/Harold/software/dl4j-trials/target/classes/
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
+file:/home/harold/.m2/repository/org/datavec/datavec-api/0.9.1/datavec-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86.jar
+file:/home/harold/.m2/repository/org/mapdb/elsa/3.0.0-M5/elsa-3.0.0-M5.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp/1.3.3/javacpp-1.3.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-macosx-x86_64.jar
+file:/home/harold/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar
+file:/home/harold/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar
+file:/home/harold/.m2/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica-platform/1.73-1.3/leptonica-platform-1.73-1.3.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar
+file:/home/harold/.m2/repository/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
+file:/home/harold/.m2/repository/org/jcodec/jcodec/0.1.5/jcodec-0.1.5.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+file:/home/harold/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nn/0.9.1/deeplearning4j-nn-0.9.1.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-resources/0.9.1/deeplearning4j-ui-resources-0.9.1.jar
+file:/home/harold/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar
+file:/home/harold/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+file:/home/harold/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.jar
+file:/home/harold/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/cuda/8.0-6.0-1.3/cuda-8.0-6.0-1.3.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-iteratees_2.11/2.4.6/play-iteratees_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui_2.11/0.9.1/deeplearning4j-ui_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
+file:/home/harold/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-components/0.9.1/deeplearning4j-ui-components-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-cluster_2.11/2.3.13/akka-cluster_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-ui-model/0.9.1/deeplearning4j-ui-model-0.9.1.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.4.4/jackson-datatype-jdk8-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.3.13/akka-remote_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar
+file:/home/harold/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/home/harold/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar
+file:/home/harold/.m2/repository/org/json/json/20160212/json-20160212.jar
+file:/home/harold/.m2/repository/net/jodah/typetools/0.4.3/typetools-0.4.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-contrib_2.11/2.3.13/akka-contrib_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-linux-x86_64.jar
+file:/home/harold/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+file:/home/harold/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+file:/home/harold/.m2/repository/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar
+file:/home/harold/.m2/repository/org/joda/joda-convert/1.7/joda-convert-1.7.jar
+file:/home/harold/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-parallel-wrapper_2.11/0.9.1/deeplearning4j-parallel-wrapper_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.7/kotlin-stdlib-1.0.7.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+file:/home/harold/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+file:/home/harold/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections/7.1.1/eclipse-collections-7.1.1.jar
+file:/home/harold/.m2/repository/org/jetbrains/kotlin/kotlin-runtime/1.0.7/kotlin-runtime-1.0.7.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-image/3.1.1/common-image-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.13/akka-persistence-experimental_2.11-2.3.13.jar
+file:/home/harold/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
+file:/home/harold/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+file:/home/harold/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar
+file:/home/harold/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar
+file:/home/harold/.m2/repository/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.jar
+file:/home/harold/.m2/repository/joda-time/joda-time/2.2/joda-time-2.2.jar
+file:/home/harold/.m2/repository/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.3/libfreenect2-0.2.0-1.3.jar
+file:/home/harold/.m2/repository/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-datacommons_2.11/2.4.6/play-datacommons_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar
+file:/home/harold/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+file:/home/harold/.m2/repository/org/eclipse/collections/eclipse-collections-api/7.1.1/eclipse-collections-api-7.1.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/hdf5/1.10.0-patch1-1.3/hdf5-1.10.0-patch1-1.3-windows-x86_64.jar
+file:/home/harold/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar
+file:/home/harold/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+file:/home/harold/.m2/repository/com/typesafe/play/play-server_2.11/2.4.6/play-server_2.11-2.4.6.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3.jar
+file:/home/harold/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+file:/home/harold/.m2/repository/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-play_2.11/0.9.1/deeplearning4j-play_2.11-0.9.1.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0-platform/0.9.1/nd4j-cuda-8.0-platform-0.9.1.jar
+file:/home/harold/.m2/repository/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-nlp/0.9.1/deeplearning4j-nlp-0.9.1.jar
+file:/home/harold/.m2/repository/org/agrona/Agrona/0.5.4/Agrona-0.5.4.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.3/artoolkitplus-2.3.1-1.3.jar
+file:/home/harold/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.73-1.3/leptonica-1.73-1.3-linux-ppc64le.jar
+file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.2.0-1.3/opencv-3.2.0-1.3-android-x86.jar
+file:/home/harold/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.3/videoinput-0.200-1.3.jar
+file:/home/harold/.m2/repository/org/deeplearning4j/deeplearning4j-zoo/0.9.1/deeplearning4j-zoo-0.9.1.jar
+
+2017-11-16 17:50:55,628 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 4150 ms to scan 205 urls, producing 4014 keys and 22998 values 
+
+2017-11-16 17:50:55,723 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: NONE; inference: SEPARATE]
+
+2017-11-16 17:50:55,888 - [DEBUG] - from org.reflections.Reflections in main
+                
+going to scan these urls:
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-base64/0.9.1/nd4j-base64-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-common/0.9.1/nd4j-common-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/jackson/0.9.1/jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-aeron/0.9.1/nd4j-aeron-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-api/0.9.1/nd4j-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-client/0.9.1/nd4j-parameter-server-client-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-macosx-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server/0.9.1/nd4j-parameter-server-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-buffer/0.9.1/nd4j-buffer-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-native-api/0.9.1/nd4j-native-api-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-jackson/0.9.1/nd4j-jackson-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-parameter-server-model/0.9.1/nd4j-parameter-server-model-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-windows-x86_64.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-context/0.9.1/nd4j-context-0.9.1.jar!/
+jar:file:/home/harold/.m2/repository/org/nd4j/nd4j-cuda-8.0/0.9.1/nd4j-cuda-8.0-0.9.1-linux-ppc64le.jar!/
+
+2017-11-16 17:50:56,069 - [INFO] - from org.reflections.Reflections in main
+                
+Reflections took 179 ms to scan 17 urls, producing 416 keys and 1637 values 
+
+2017-11-16 17:50:56,154 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Train model....
+
+2017-11-16 17:50:56,276 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for BLAS: 0
+
+2017-11-16 17:50:56,595 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 2.319641486295572
+
+2017-11-16 17:51:01,459 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5914394121765725
+
+2017-11-16 17:51:05,736 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.23427936212674466
+
+2017-11-16 17:51:10,090 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.10445105528578172
+
+2017-11-16 17:51:14,301 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.0900917556124371
+
+2017-11-16 17:51:17,512 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Completed epoch 0, time: 21356 ***
+
+2017-11-16 17:51:19,128 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.18947495053409266
+
+2017-11-16 17:51:23,747 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 600 is 0.09297675812671319
+
+2017-11-16 17:51:28,148 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 700 is 0.10320003025934099
+
+2017-11-16 17:51:32,469 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 800 is 0.14211794896385907
+
+2017-11-16 17:51:36,823 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 900 is 0.02940313663800586
+
+2017-11-16 17:51:38,482 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Completed epoch 1, time: 20970 ***
+
+2017-11-16 17:51:38,482 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+*** Training complete, time: 42327 ***
+
+2017-11-16 17:51:38,482 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+Evaluate model....
+
+2017-11-16 17:51:39,974 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+
+Examples labeled as 0 classified by model as 0: 970 times
+Examples labeled as 0 classified by model as 2: 2 times
+Examples labeled as 0 classified by model as 5: 1 times
+Examples labeled as 0 classified by model as 6: 2 times
+Examples labeled as 0 classified by model as 7: 2 times
+Examples labeled as 0 classified by model as 8: 3 times
+Examples labeled as 1 classified by model as 1: 1133 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 0: 1 times
+Examples labeled as 2 classified by model as 1: 8 times
+Examples labeled as 2 classified by model as 2: 1011 times
+Examples labeled as 2 classified by model as 4: 2 times
+Examples labeled as 2 classified by model as 7: 5 times
+Examples labeled as 2 classified by model as 8: 5 times
+Examples labeled as 3 classified by model as 0: 1 times
+Examples labeled as 3 classified by model as 2: 3 times
+Examples labeled as 3 classified by model as 3: 977 times
+Examples labeled as 3 classified by model as 5: 10 times
+Examples labeled as 3 classified by model as 7: 7 times
+Examples labeled as 3 classified by model as 8: 10 times
+Examples labeled as 3 classified by model as 9: 2 times
+Examples labeled as 4 classified by model as 0: 1 times
+Examples labeled as 4 classified by model as 2: 1 times
+Examples labeled as 4 classified by model as 4: 976 times
+Examples labeled as 4 classified by model as 6: 2 times
+Examples labeled as 4 classified by model as 8: 1 times
+Examples labeled as 4 classified by model as 9: 1 times
+Examples labeled as 5 classified by model as 0: 1 times
+Examples labeled as 5 classified by model as 1: 1 times
+Examples labeled as 5 classified by model as 3: 5 times
+Examples labeled as 5 classified by model as 4: 1 times
+Examples labeled as 5 classified by model as 5: 878 times
+Examples labeled as 5 classified by model as 6: 2 times
+Examples labeled as 5 classified by model as 7: 1 times
+Examples labeled as 5 classified by model as 8: 3 times
+Examples labeled as 6 classified by model as 0: 5 times
+Examples labeled as 6 classified by model as 1: 5 times
+Examples labeled as 6 classified by model as 2: 1 times
+Examples labeled as 6 classified by model as 4: 2 times
+Examples labeled as 6 classified by model as 5: 2 times
+Examples labeled as 6 classified by model as 6: 942 times
+Examples labeled as 6 classified by model as 8: 1 times
+Examples labeled as 7 classified by model as 1: 6 times
+Examples labeled as 7 classified by model as 2: 6 times
+Examples labeled as 7 classified by model as 7: 1010 times
+Examples labeled as 7 classified by model as 8: 2 times
+Examples labeled as 7 classified by model as 9: 4 times
+Examples labeled as 8 classified by model as 0: 3 times
+Examples labeled as 8 classified by model as 3: 2 times
+Examples labeled as 8 classified by model as 4: 4 times
+Examples labeled as 8 classified by model as 7: 4 times
+Examples labeled as 8 classified by model as 8: 958 times
+Examples labeled as 8 classified by model as 9: 3 times
+Examples labeled as 9 classified by model as 0: 3 times
+Examples labeled as 9 classified by model as 1: 3 times
+Examples labeled as 9 classified by model as 3: 4 times
+Examples labeled as 9 classified by model as 4: 15 times
+Examples labeled as 9 classified by model as 5: 4 times
+Examples labeled as 9 classified by model as 7: 6 times
+Examples labeled as 9 classified by model as 8: 1 times
+Examples labeled as 9 classified by model as 9: 973 times
+
+
+==========================Scores========================================
+ # of classes:    10
+ Accuracy:        0.9828
+ Precision:       0.9829
+ Recall:          0.9827
+ F1 Score:        0.9827
+Precision, recall & F1: macro-averaged (equally weighted avg. of 10 classes)
+========================================================================
+
+2017-11-16 17:51:39,975 - [INFO] - from edu.fiu.cate.dl4j.dl4j.trials.App in main
+                
+****************Example finished********************
+
