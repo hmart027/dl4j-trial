@@ -1,5 +1,6 @@
-package edu.fiu.cate.dl4j.dl4j.trials;
+package edu.fiu.cate.dl4j.trials;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator;
@@ -32,16 +33,11 @@ import org.nd4j.linalg.lossfunctions.LossFunctions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    private static final Logger log = LoggerFactory.getLogger(App.class);
+public class DL4JTrials {
+    private static final Logger log = LoggerFactory.getLogger(DL4JTrials.class);
     
-    public static void main( String[] args )throws Exception 
-    {
+    
+    public DL4JTrials(){
     	// PLEASE NOTE: For CUDA FP16 precision support is available
         DataTypeUtil.setDTypeForContext(DataBuffer.Type.HALF);
 
@@ -56,8 +52,17 @@ public class App
 
             // cross-device access is used for faster model averaging over pcie
             .allowCrossDeviceAccess(true);
-
-        int nChannels = 1;
+        		
+		try {
+			convNetTrain();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+    }
+    
+    public void convNetTrain() throws IOException{
+    	int nChannels = 1;
         int outputNum = 10;
 
         // for GPU you usually want to have higher batchSize
@@ -69,100 +74,7 @@ public class App
         log.info("Load data....");
         DataSetIterator mnistTrain = new MnistDataSetIterator(batchSize,true,12345);
         DataSetIterator mnistTest = new MnistDataSetIterator(batchSize,false,12345);
-        
-        DataSetIterator mnistTest1 = new DataSetIterator() {
-			
-			@Override
-			public DataSet next() {
-				DataSet ds = new DataSet();
-				return null;
-			}
-			
-			@Override
-			public boolean hasNext() {
-				// TODO Auto-generated method stub
-				return false;
-			}
-			
-			@Override
-			public int totalOutcomes() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public int totalExamples() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public void setPreProcessor(DataSetPreProcessor arg0) {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public boolean resetSupported() {
-				// TODO Auto-generated method stub
-				return false;
-			}
-			
-			@Override
-			public void reset() {
-				// TODO Auto-generated method stub
-				
-			}
-			
-			@Override
-			public int numExamples() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public DataSet next(int arg0) {
-				// TODO Auto-generated method stub
-				return null;
-			}
-			
-			@Override
-			public int inputColumns() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public DataSetPreProcessor getPreProcessor() {
-				// TODO Auto-generated method stub
-				return null;
-			}
-			
-			@Override
-			public List<String> getLabels() {
-				// TODO Auto-generated method stub
-				return null;
-			}
-			
-			@Override
-			public int cursor() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public int batch() {
-				// TODO Auto-generated method stub
-				return 0;
-			}
-			
-			@Override
-			public boolean asyncSupported() {
-				// TODO Auto-generated method stub
-				return false;
-			}
-		};
-        
+                
         log.info("Build model....");
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
             .seed(seed)
@@ -265,6 +177,8 @@ public class App
         log.info("****************Example finished********************");
     }
     
-    
+    public static void main(String[] args){
+    	new DL4JTrials();  
+    }
     
 }
